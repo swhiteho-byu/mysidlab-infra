@@ -4,7 +4,7 @@
   hosts: localhost
   gather_facts: False
   vars:
-    keypair: us-jhooker-aws-admin
+    keypair: 
     instance_type: t2.micro
     security_group: ansible-security-group
     image: ami-0520e698dd500b1d1
